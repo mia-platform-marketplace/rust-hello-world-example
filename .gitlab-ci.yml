@@ -1,0 +1,11 @@
+include:
+  - project: 'platform/pipelines-templates'
+    file: '/build/rust/template-app-rust.yml'
+    ref: rust
+# include:
+#   - project: 'platform/pipelines-templates'
+#     file: '/build/rust/template-app-rust-test-nightly.yml'
+#     ref: rust
+
+variables:
+  IMAGE_NAME: demo/rust-hello-world
