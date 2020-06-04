@@ -21,8 +21,8 @@ RUN cargo build --release
 FROM gcr.io/distroless/cc
 
 LABEL maintainer="%CUSTOM_PLUGIN_CREATOR_USERNAME%" \
-      name="%CUSTOM_PLUGIN_SERVICE_NAME%" \
-      description="%CUSTOM_PLUGIN_SERVICE_NAME%" \
+      name="mia_template_service_name_placeholder" \
+      description="%CUSTOM_PLUGIN_SERVICE_DESCRIPTION%" \
       eu.mia-platform.url="https://www.mia-platform.eu" \
       eu.mia-platform.version="0.1.0" \
       eu.mia-platform.language="rust" \
