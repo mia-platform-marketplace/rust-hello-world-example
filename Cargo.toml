@@ -1,7 +1,6 @@
 [package]
-name = "rust-hello-world"
+name = "mia_template_service_name_placeholder"
 version = "0.1.2-alpha.0"
-authors = ["Tommaso Allevi <tommaso.allevi@mia-platform.eu>"]
 edition = "2018"
 publish = false
 
