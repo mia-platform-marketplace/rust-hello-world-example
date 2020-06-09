@@ -1,4 +1,4 @@
-# %CUSTOM_PLUGIN_SERVICE_NAME%
+# mia_template_service_name_placeholder
 
 [![pipeline status][pipeline]][git-link]
 [![coverage report][coverage]][git-link]
