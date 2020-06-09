@@ -904,6 +904,25 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "3728d817d99e5ac407411fa471ff9800a778d88a24685968b36824eaf4bee400"
 
 [[package]]
+name = "mia_template_service_name_placeholder"
+version = "0.1.2-alpha.0"
+dependencies = [
+ "actix-rt",
+ "actix-service",
+ "actix-web",
+ "bytes",
+ "env_logger",
+ "envconfig",
+ "envconfig_derive",
+ "futures",
+ "json",
+ "serde",
+ "serde_json",
+ "struct2swagger",
+ "struct2swagger_derive",
+]
+
+[[package]]
 name = "mime"
 version = "0.3.16"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1177,25 +1196,6 @@ checksum = "11834e137f3b14e309437a8276714eed3a80d1ef894869e510f2c0c0b98b9f4a"
 dependencies = [
  "hostname",
  "quick-error",
-]
-
-[[package]]
-name = "rust-hello-world"
-version = "0.1.2-alpha.0"
-dependencies = [
- "actix-rt",
- "actix-service",
- "actix-web",
- "bytes",
- "env_logger",
- "envconfig",
- "envconfig_derive",
- "futures",
- "json",
- "serde",
- "serde_json",
- "struct2swagger",
- "struct2swagger_derive",
 ]
 
 [[package]]

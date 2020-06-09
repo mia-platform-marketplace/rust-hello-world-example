@@ -48,7 +48,7 @@ cargo build --release
 ### Run
 
 ```bash
-target/debug/rust-hello-world
+target/debug/mia_template_service_name_placeholder
 ```
 
 and go to [http://localhost:3000/]()
@@ -59,10 +59,10 @@ If you want to setup env vars justi change file *exportenv.sh* and execute
 . ./exportenv.sh
 ```
 
-before launching the *rust-hello-world* application.
+before launching the *mia_template_service_name_placeholder* application.
 
 ---------------------------
 
-[pipeline]: https://git.tools.mia-platform.eu/clients/mia-platform/demo/services/rust-hello-world/badges/master/pipeline.svg
-[coverage]: https://git.tools.mia-platform.eu/clients/mia-platform/demo/services/rust-hello-world/badges/master/coverage.svg
-[git-link]: https://git.tools.mia-platform.eu/clients/mia-platform/demo/services/rust-hello-world/commits/master
+[pipeline]: https://git.tools.mia-platform.eu/clients/mia-platform/demo/services/mia_template_service_name_placeholder/badges/master/pipeline.svg
+[coverage]: https://git.tools.mia-platform.eu/clients/mia-platform/demo/services/mia_template_service_name_placeholder/badges/master/coverage.svg
+[git-link]: https://git.tools.mia-platform.eu/clients/mia-platform/demo/services/mia_template_service_name_placeholder/commits/master

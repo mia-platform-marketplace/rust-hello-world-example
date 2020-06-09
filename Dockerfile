@@ -29,7 +29,7 @@ LABEL maintainer="%CUSTOM_PLUGIN_CREATOR_USERNAME%" \
       eu.mia-platform.framework="Rust"
 
 COPY --from=build \
-      /target/release/rust-hello-world \
+      /target/release/mia_template_service_name_placeholder \
       /usr/local/bin/
 
-CMD ["rust-hello-world"]
+CMD ["mia_template_service_name_placeholder"]
