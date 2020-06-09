@@ -2,15 +2,6 @@ FROM rust:1.43.0-slim as build
 
 COPY Cargo.toml Cargo.toml
 COPY Cargo.lock Cargo.lock
-RUN mkdir src
-
-RUN echo "fn main() {panic!(\"if you see this, the build broke\")}" > src/main.rs
-
-RUN cargo build --release
-
-RUN rm -f target/release/deps/rust_hello_world*
-RUN rm -f target/release/incremental/rust_hello_world*
-RUN rm -f target/release/deps/rust_hello_world*
 
 COPY . .
 
