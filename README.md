@@ -39,7 +39,7 @@ Step 5 of [Microservice from template - Get started](https://docs.mia-platform.e
 Now, if you launch the following command on your terminal (remember to replace `<YOUR_PROJECT_HOST>` with the real host of your project):
 
 ```shell
-curl <YOUR_PROJECT_HOST>/rust-greetings/hello
+curl <YOUR_PROJECT_HOST>/rust-greetings/
 ```
 
 you should see the following message:
