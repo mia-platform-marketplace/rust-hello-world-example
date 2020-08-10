@@ -23,4 +23,4 @@ struct2swagger_derive = "0.1.2"
 struct2swagger = "0.1.2"
 
 [dev-dependencies]
-actix-service = "1.0.5"
+actix-service = "1.0.6"
