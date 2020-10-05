@@ -1463,9 +1463,9 @@ checksum = "213701ba3370744dcd1a12960caa4843b3d68b4d1c0a5d575e0d65b2ee9d16c0"
 
 [[package]]
 name = "struct2swagger"
-version = "0.1.3"
+version = "0.1.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "48bc6b98ef45d857f600011a94c49108324d26d85937cc8a55320849c50beee8"
+checksum = "bb103f0045ad204c6a50edb3f5893779bcad02608356a3b7c8aff43dd6a3b7fb"
 dependencies = [
  "proc-macro2",
  "quote",

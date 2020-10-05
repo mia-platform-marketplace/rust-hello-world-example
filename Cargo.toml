@@ -20,7 +20,7 @@ json = "0.12"
 envconfig = "0.8.0"
 envconfig_derive = "0.8.0"
 struct2swagger_derive = "0.1.3"
-struct2swagger = "0.1.3"
+struct2swagger = "0.1.6"
 
 [dev-dependencies]
 actix-service = "1.0.6"
