@@ -573,18 +573,7 @@ version = "0.9.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "3c0ef0470da909709515ab175d5d12f1b20932f758f731589e1ff198561ab9ca"
 dependencies = [
- "envconfig_derive 0.9.1",
-]
-
-[[package]]
-name = "envconfig_derive"
-version = "0.8.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "0bb6cec7a023cdb44f38c5b99c26f520d279eec7265d9c957970d8b073bb2f17"
-dependencies = [
- "proc-macro2",
- "quote",
- "syn",
+ "envconfig_derive",
 ]
 
 [[package]]
@@ -995,7 +984,7 @@ dependencies = [
  "bytes",
  "env_logger",
  "envconfig",
- "envconfig_derive 0.8.0",
+ "envconfig_derive",
  "futures",
  "json",
  "serde",
