@@ -982,7 +982,7 @@ dependencies = [
  "actix-rt",
  "actix-service",
  "actix-web",
- "bytes 0.5.6",
+ "bytes 1.0.0",
  "env_logger",
  "envconfig",
  "envconfig_derive",
