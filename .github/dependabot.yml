@@ -1,0 +1,34 @@
+version: 2
+updates:
+- package-ecosystem: cargo
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "04:00"
+  open-pull-requests-limit: 10
+  allow:
+  - dependency-type: direct
+  - dependency-type: indirect
+  ignore:
+  - dependency-name: futures-sink
+    versions:
+    - 0.3.13
+    - 0.3.14
+  - dependency-name: futures-core
+    versions:
+    - 0.3.13
+    - 0.3.14
+  - dependency-name: syn
+    versions:
+    - 1.0.66
+  - dependency-name: actix-rt
+    versions:
+    - 2.0.0
+    - 2.0.2
+    - 2.1.0
+  - dependency-name: libc
+    versions:
+    - 0.2.83
+  - dependency-name: env_logger
+    versions:
+    - 0.8.2
